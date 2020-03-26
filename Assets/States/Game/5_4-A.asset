@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 5_4-A
+  m_EditorClassIdentifier: 
+  storyText: 'You have chosen to try and save her. As you start running toward her
+    you hurl your mop spear as hard as you can at the zombie that is attacking her.
+    You end up immobalizing the zombie by piercing its legs together with the spear
+    completely by accident. You then pick up the woman, because by this point she
+    is in a state of shock, and start running away from the previous zombie you.
+    You are now slower due to the woman and you start to worry. You have a group
+    of zombies in front of you and one behind you. "Will this nightmare ever end?"
+    you think to yourself as you realize this is the first time you''ve felt a woman''s
+    touch in over ten long years. The one behind you is gaining fast. You start to
+    panic. You have to do something soon or you will both die.
+
+
+    What will you
+    do?
+
+
+    1) Use the woman as bait by throwing her to the ground when the group
+    of zombies gets closer.
+
+
+    2) Take the woman''s broken heel, turn around,
+    and try to stab it into the head of the one zombie behind you.'
+  headerText: Escape The Mall
+  nextStates:
+  - {fileID: 11400000, guid: 48d89c0b4b3fee9498dfd76324cc6396, type: 2}
+  - {fileID: 11400000, guid: 13ee53a8d224504449f0288be2cd3ade, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

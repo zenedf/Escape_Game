@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 6_4-B
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to forget about the woman and continue to run towards the
+    exit. You turn around hoping you would see that the woman was able to get away
+    from the two zombies near you both when you trip on something and sprain your
+    ankle. You get back to your feet very quickly before feeling an excruciating
+    pain in your ankle. "There''s no way I''m going to make it now", you thought.
+    You frantically look around to try to find some kind of weapon you could try
+    to use for defense as you limp your way towards the exit when something catches
+    your eye. You had tripped over the disembowled corpse of a young child. You recognized
+    the child. It was a young girl you had seen in the food court right after you
+    got off your lunch break. You remember thinking to yourself, "I wonder if I will
+    ever have kids". As you stare into the eyes of this small eight year old dismembered
+    child your will to live leaves you. You slowly sit down on the ground still staring
+    into her eyes. Her face was the last thing you saw before your limbs and flesh
+    were ripped from your body.
+
+
+    Press 1 to restart  |  Press Q to quit'
+  headerText: GAME OVER
+  nextStates:
+  - {fileID: 11400000, guid: e59fd00f93d3657458cc9b3c079e4c02, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

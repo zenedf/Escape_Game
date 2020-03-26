@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 0
+  m_EditorClassIdentifier: 
+  storyText: 'You rush out of the bathroom to see why everyone is screaming. You
+    were in the middle of cleaning the restroom as you are a janitor that works at
+    a mall. You quickly realize that the mall is infested with zombies and killing
+    everyone. You know there is an exit to the right of you, but that is where the
+    stampede of people are running from. You know there is an exit to the left of
+    you if you go up an escalator and go to the other end of the mall. You have no
+    cell phone because you''re not allowed to have one on the job, and the security
+    guards aren''t answering when you radio them.
+
+
+    What will you do?
+
+
+    1)
+    Grab your mop to use as a weapon as you run through the stampede of humans and
+    zombies on the right to get to the exit.
+
+
+    2) Immediately go left and start
+    running. You have a lot of ground to cover.'
+  headerText: Escape The Mall
+  nextStates:
+  - {fileID: 11400000, guid: 087caece71f1f07429f9b4b0893508f2, type: 2}
+  - {fileID: 11400000, guid: 5b0adca03308af44f9c759cd5bc9a92b, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

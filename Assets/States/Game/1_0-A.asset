@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 1_0-A
+  m_EditorClassIdentifier: 
+  storyText: 'You chose to go right. You run through the stampede of humans before
+    getting to the herd of zombies. One of them runs at you. You swing your mop at
+    its head like a bat. It breaks upon impact leaving the zombie slightly stunned.
+    The part of the mop that broke is now pointed like a spear.  Very quickly the
+    zombie regains its composure before starting to lunge at you.
+
+
+    What will
+    you do?
+
+
+    1) Try to pierce the zombie''s brain with your mop spear.
+
+
+    2)
+    Do a spin maneuver you saw in football to get around it and keep running for
+    the exit.'
+  headerText: Escape The Mall
+  nextStates:
+  - {fileID: 11400000, guid: da04f910b16fc9648acc440c2971d004, type: 2}
+  - {fileID: 11400000, guid: ac73ab9e530c7b247984118ad196c6ab, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

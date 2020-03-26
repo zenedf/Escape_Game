@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 7_5-B
+  m_EditorClassIdentifier: 
+  storyText: 'You try to take the woman''s broken heel off of her foot but cannot
+    seem to remove it. You start to panic. You turn around and try to run past the
+    first zombie you encountered. You make it to the side of the zombie when it grabs
+    the leg of the woman you are carrying which brings you both to the floor. You
+    hit your head hard on the tile floor which causes you to black out for a few
+    seconds. The women''s screams are probably what caused you to wake up. As you
+    come to you see the woman trying desparately to crawl away with a thick blood
+    trail behind her. The zombie is next to her eating her severed leg it had just
+    procurred. Her screams filled my mind with despair as I looked toward the exit
+    doors at the herd of zombies barreling towards us. You have not had a fulfilling
+    life. You never married. You have no kids. You barely even knew the warmth of
+    a woman, but you will be eaten alive next to one shortly after you cleaned shit
+    off the walls in a public bathroom. As you start to feel the teeth and nails
+    of beings you have seen in movies and comics puncture your flesh, in the location
+    you have cleaned both puke and feces in for the last 10 years, you think to yourself,
+    "Fuck this world".
+
+
+    Press 1 to restart  |  Press Q to quit'
+  headerText: GAME OVER
+  nextStates:
+  - {fileID: 11400000, guid: e59fd00f93d3657458cc9b3c079e4c02, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

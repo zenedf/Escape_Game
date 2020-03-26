@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 8_5-A
+  m_EditorClassIdentifier: 
+  storyText: 'You feel like you have no other choice. You hurl the poor woman onto
+    the floor without stopping as you approach the group. The majority of them immediately
+    go for her. You are now able to go around the group of zombies. Four of the zombies
+    break off from the group to chase you. You are so close to the exit. You are
+    so close to getting to live another day as a mall janitor. You are running faster
+    than you ever have before. The zombies are so close behind you that you think
+    you can smell their breath. As soon as your burst the the exit doors you see
+    a blinding light and hear a man yell, "ON THE GROUND!".
+
+
+    What do you do?
+
+
+    1)
+    Ignore the man and continue to run. Even though you can''t see right now you
+    know your vehicle is practically one row of parking in front of you.
+
+
+    2)
+    Drop to the ground ignoring your base instincts to run until you are free from
+    this nightmare.'
+  headerText: Escape The Mall
+  nextStates:
+  - {fileID: 11400000, guid: 81474009787879c4cb673b9d3ddb4e67, type: 2}
+  - {fileID: 11400000, guid: f8b340f04f0315a4b8be451cc7fb0679, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}

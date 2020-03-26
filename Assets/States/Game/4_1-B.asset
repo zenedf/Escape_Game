@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce17204591b042b56f36617b255f0, type: 3}
+  m_Name: 4_1-B
+  m_EditorClassIdentifier: 
+  storyText: 'You can''t believe that actually worked! You have never been good at
+    anything in your life. Maybe this is a sign that you won''t die here in this
+    mall. Maybe this is a sign that your poor, pathetic, miserable life is about
+    to have meaning. Maybe you won''t be eaten by undead humans. Humans that used
+    to smear feces and vomitous on the bathroom toilets and walls while laughing
+    to themselves. Knowing full well that some pathetic man that has hit rock bottom,
+    and given up on ever finding happiness again, will be the one that has to clean
+    it up! Your happiness quickly fades as your attention is brought back to the
+    exit. There are so many zombies heading your way. You hear a woman screaming.
+    You turn to your left to see a woman hitting a zombie with her purse while trying
+    to run the opposite direction as you with a broken heel.
+
+
+    What will you
+    do?
+
+
+    1) Run to the other side of the walkway to try and save her.
+
+
+    2)
+    Continue running towards the exit.'
+  headerText: Escape The Mall
+  nextStates:
+  - {fileID: 11400000, guid: 1f4177e3b9ade1c4a9c54e3a096efc39, type: 2}
+  - {fileID: 11400000, guid: bbc23923894a7b1499f31b2636aea6ae, type: 2}
+  - {fileID: 11400000, guid: 6ac2eec5a0f31ac4c9703fc75c8f1e20, type: 2}
