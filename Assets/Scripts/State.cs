@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 // This allows you to right-click and createa new State object in Unity
-[CreateAssetMenu(menuName ="State")]
+[CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
     // 1st # = minimum, 2nd # = number before we start to scroll

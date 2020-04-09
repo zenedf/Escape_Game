@@ -3,7 +3,7 @@
 /// [ ] Allow PC users to click on the answer they want. (This will help when I make this game for mobile)
 /// [ ] Make this game for android
 /// [X] Make the UI dynamic
-/// 
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
