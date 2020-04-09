@@ -9,12 +9,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AdventureGame : MonoBehaviour
 {
     [SerializeField] Text storyTextComponent;
-    [SerializeField] Text headerTextComponent;
     [SerializeField] State startingState;
+    [SerializeField] TMP_Text headerTextMeshComponent;
 
     State state;
 
@@ -68,7 +69,9 @@ public class AdventureGame : MonoBehaviour
     void FillInStateText()
     {
         storyTextComponent.text = state.GetStateStory();
-        headerTextComponent.text = state.GetStateHeader();
+        headerTextMeshComponent.text = state.GetStateHeader();
+
+
     }
-    
+
 }
