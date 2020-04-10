@@ -19,17 +19,12 @@ public class AdventureGame : MonoBehaviour
 
     State state;
 
-    //int[] oddNumbers = { 1, 3, 5, 7, 9 }; // Array Example
-
     // Start is called before the first frame update
     void Start()
     {
         state = startingState; // It starts in the starting state
 
         FillInStateText();
-
-        //textComponent.text = ("This text is added programmatically as a test example!");
-        //Debug.Log(oddNumbers[3]); // Array Example...printing it
     }
 
     // Update is called once per frame
@@ -39,7 +34,7 @@ public class AdventureGame : MonoBehaviour
     }
 
     /// <summary>
-    /// TODO
+    /// This controls which state is loaded and the controls that choose the different states.
     /// </summary>
     private void ManageState()
     {
@@ -55,12 +50,6 @@ public class AdventureGame : MonoBehaviour
             state = nextStates[1];
             FillInStateText();
         }
-        //else if (Input.GetKeyDown(KeyCode.T))  // This is just for testing. Delete before sending out the game.
-        //{
-        //    state = nextStates[2];
-        //    FillInStateText();
-        //}
-
     }
 
     /// <summary>
@@ -70,8 +59,5 @@ public class AdventureGame : MonoBehaviour
     {
         storyTextComponent.text = state.GetStateStory();
         headerTextMeshComponent.text = state.GetStateHeader();
-
-
     }
-
 }
