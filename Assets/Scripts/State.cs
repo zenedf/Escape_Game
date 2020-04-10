@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-// This allows you to right-click and createa new State object in Unity
+// This allows you to right-click and create a new State object in Unity
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
-    // 1st # = minimum, 2nd # = number before we start to scroll
+    // 1st # = minimum, 2nd # = number of lines before we start to scroll
     [TextArea(14, 10)] [SerializeField] string storyText;
 
     // Maybe use a dictionary or something for the header part.
@@ -17,7 +16,7 @@ public class State : ScriptableObject
     [SerializeField] State[] nextStates;
 
     /// <summary>
-    /// TODO
+    /// Gets the story for the current state.
     /// </summary>
     /// <returns>The story text</returns>
     public string GetStateStory()
@@ -26,22 +25,23 @@ public class State : ScriptableObject
     }
 
     /// <summary>
-    /// TODO
+    /// Gets the header text for the current state.
     /// </summary>
     /// <returns>The title of the place you are</returns>
-    /// <notes>
-    /// This method could used for debugging.
-    /// I'm assuming you would usually just have a static header that is the title of the game.
-    /// </notes>
     public string GetStateHeader()
     {
+        // <notes>
+        // This method could be used for debugging.
+        // I'm assuming you would usually just have a static header that is the title of the game.
+        // </notes>
+    
         return headerText;
     }
 
     /// <summary>
-    /// TODO
+    /// Get's an array of the next states.
     /// </summary>
-    /// <returns>TODO</returns>
+    /// <returns>Return the array of the next states.</returns>
     public State[] GetNextStates()
     {
         return nextStates;
